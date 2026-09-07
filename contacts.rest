@@ -3,3 +3,17 @@ GET http://localhost:3000/
 
 ### Contacts
 GET http://localhost:3000/contacts
+
+### Contact by ID
+GET http://localhost:3000/contacts/6483ce3e3f46080356e0c6d9
+
+
+
+### Render Main
+GET https://project1-pcur.onrender.com/
+
+### Render Contacts
+GET https://project1-pcur.onrender.com/contacts
+
+### Render Contact by ID
+GET https://project1-pcur.onrender.com/contacts/6483ce3e3f46080356e0c6d9
