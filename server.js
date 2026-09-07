@@ -1,3 +1,7 @@
+/* 
+npm start
+*/
+
 const express = require('express');
 
 const mongodb = require('./data/database');
@@ -13,7 +17,7 @@ mongodb.initDb((err => {
         console.log(err);
     }
     else{
-app.listen(port, () => {console.log(`Database is listening and node Running on port ${port} \nhttp://localhost:${port}/`);
+app.listen(port, () => {console.log(`Database is listening and node Running on port ${port} \nhttp://localhost:${port}/\nThe second web is http://localhost:${port}/contacts`);
 });
     }
 }))
