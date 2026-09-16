@@ -5,7 +5,7 @@
     "description": "Users Api",
     "version": "1.0.0"
   },
-  "host": "project1-pcur.onrender.com/",
+  "host": "project1-pcur.onrender.com",
   "basePath": "/",
   "schemes": ["https"],
   "paths": {
@@ -20,7 +20,7 @@
         }
       }
     },
-    "/contacts/": {
+    "/contacts": {
       "get": {
         "tags": ["Users"],
         "description": "",
