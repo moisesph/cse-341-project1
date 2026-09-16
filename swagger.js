@@ -5,7 +5,7 @@ const doc = {
     title: "Users Api",
     description: "Users Api",
   },
-  host: "localhost:3000",
+  host: "https://project1-pcur.onrender.com",
   schemes: ["https", "http"],
 };
 
